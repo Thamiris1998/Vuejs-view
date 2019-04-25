@@ -1,0 +1,211 @@
+/* CSS Document */
+
+
+
+* {
+	font-family: "Nunito sans", sans-serif;
+}
+body {
+	background-color:#E6E9F1;
+}
+
+hr {
+    height: 5px;
+	border-color: #00A3F2;
+}
+
+h1, h2, h3, h4, .card-header {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	color: #2F4F98;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+h3 {font-size:1.4rem;}
+.navbar h3 {margin-bottom: 0; line-height: 33px;}
+h4 {font-size:0.8rem; text-transform: uppercase; color:#7C8497;}
+strong {
+	font-weight: 500; color: #7C8497;
+}
+p, a {
+	font-size:0.9rem;
+}
+a, a:visited {color:#00A3F2;}
+
+a:hover, a:active, a:focus, .list-group-item a:hover {
+	color:#0092d9;
+}
+
+.margin-top {
+	margin-top:15px;
+}
+.margin-bottom {
+	margin-bottom:15px;
+}
+.padding-top {
+	padding-top:15px;
+}
+.padding-bottom {
+	padding-bottom:15px;
+}
+
+
+/* CORES */
+.a1-blue {color:#2F4F98 !important;}
+.bg-a1-blue {background-color:#2F4F98 !important;}
+.bd-a1-blue {border-color:#2F4F98 !important;}
+.a2-blue {color:#0092D9 !important;}
+.bg-a2-blue {background-color:#0092D9 !important;}
+.bd-a1-blue {border-color:#0092D9 !important;}
+.a3-blue {color:#00A3F2 !important;}
+.bg-a3-blue {background-color:#00A3F2 !important;}
+.bd-a3-blue {border-color:#00A3F2 !important;}
+.a4-blue {color:#C3E6F8 !important;}
+.bg-a4-blue {background-color:#C3E6F8 !important;}
+.bd-a4-blue {border-color:#C3E6F8 !important;}
+
+.c1-grey {color:#353E54 !important;}
+.bg-c1-grey {background-color:#353E54 !important;}
+.c2-grey {color:#485164 !important;}
+.bg-c2-grey {background-color:#485164 !important;}
+.c3-grey {color:#7C8497 !important;}
+.bg-c3-grey {background-color:#7C8497 !important;}
+.c4-grey {color:#B2BACC !important;}
+.bg-c4-grey {background-color:#B2BACC !important;}
+.c5-grey {color:#E6E9F1 !important;}
+.bg-c5-grey {background-color:#E6E9F1 !important;}
+.c6-grey {color:#FAFAFA !important;}
+.bg-c6-grey {background-color:#FAFAFA !important;}
+
+.r1-red {color:#F4524D !important;}
+.bg-r1-red {background-color:#F4524D !important;}
+.g1-green {color:#279541 !important;}
+.bg-g1-green {background-color:#279541 !important;}
+.g2-green {color:#2FB24C !important;}
+.bg-g2-green {background-color:#2FB24C !important;}
+
+.w-white {color:#FFFFFF !important;}
+.bg-w-white {background-color:#FFFFFF !important;}
+.b-black {color: #000000 !important;}
+.bg-b-black {background-color: #000000 !important;}
+
+.navbar-header .navbar1 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+}
+.navbar-header {
+	background-color:#FFFFFF;
+}
+.navbar-header a {
+	font-family: "Nunito", sans-serif;
+	letter-spacing: 0.03rem;
+	color:#7c8497;
+}
+
+.navbar-header .navbar-collapse {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+}
+.navbar-header .active a, .navbar-header .active a:hover {
+	color:#00A3F2;
+}
+.navbar-header a:hover, .navbar-header.navbar-primary .active a:hover {
+	color:#0092D9;
+}
+.navbar-header.navbar-primary a {color:#FFFFFF;}
+.navbar-header.navbar-primary .active a, .navbar-header.navbar-primary .active a:hover {
+	color:#00A3F2;
+}
+
+
+.navbar-primary {
+	background-color:#2F4F98;
+	color:#FFFFFF;
+}
+.navbar-primary a {
+	text-transform: uppercase;
+}
+
+.nav-item.active a {
+	color:#00A3F2;
+}
+.nav-item a {
+	color:#b2bacc;
+}
+
+.mainContent {
+	margin-top:30px;
+}
+.mainContent .card {
+	margin-bottom:10px;
+}
+.mainContent .card-header {
+	background-color: #FFFFFF;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	color:#2F4F98;
+	margin-bottom: 0;
+}
+.list-group-item a, .list-group-item a:visited {
+	color:#b2bacc; text-decoration: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1;
+}
+.list-group-item a:hover, .list-group-item a:active {
+	color:#0092d9; 
+}
+.list-group-item.active {
+	background-color: inherit;
+}
+.list-group-item.active a {
+	color:#00A3F2;
+}
+
+.card {border-color:#B2BACC; }
+.list-group-item, .list-group-item.active {border-color:#E6E9F1;}
+.card-body h2 {
+	margin-bottom: 20px;
+}
+
+label {
+    color:#00A3F2; font-weight: 700; text-transform: uppercase; font-size: 0.8rem;
+    margin-right: 164px;
+    margin-top: 20px;
+}
+label.title-items {
+	white-space: nowrap;
+	font-size:0.815rem;
+}
+
+.alert .fa {
+	margin-right:10px;
+}
+
+.btn {
+	font-family: "Nunito"; font-weight: 700; letter-spacing: 0.03rem; text-transform: uppercase; font-size:0.8rem;
+}
+.btn-primary {
+	background-color:#00A3F2; color: #FFFFFF; border:0;
+}
+.btn-secondary {
+	background-color:#FFFFFF; color: #00A3F2; border-color:#00A3F2;
+}
+.btn-success {
+	background-color:#2FB24C; color: #FFFFFF; border:0;
+}
+.btn-danger {
+	background-color:#F4524D; color: #FFFFFF; border:0;
+}
+
+/* MODAL */
+.modal-header {
+	background-color: #2F4F98; color: #FFFFFF; border-radius: 4px 4px 0 0;
+}
+.modal-header h3, .modal-header .close {color:#FFFFFF;}
+
+#photo-detail-modal .modal-body img {
+    width:100% !important;
+}
