@@ -11,5 +11,5 @@
 - No arquivo package.json é onde são inseridos os pacotes que são utilizados.
 
 #Para compilar projeto
-yarn serve
+- $ yarn serve
 
